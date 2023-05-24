@@ -1,21 +1,26 @@
 {
   "compilerOptions": {
-    // по умолчанию
-    "target": "es5",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true,
-
-    // добавленное
-    "jsx": "react",
-    "module": "ESNext",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
     "declaration": true,
     "declarationDir": "types",
-    "sourceMap": true,
-    "outDir": "dist",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-  }
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "strictFunctionTypes": true
+  },
+  "include": ["src/"]
 }
